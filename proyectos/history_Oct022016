@@ -1,0 +1,187 @@
+    1  fdisk -l
+    2  ip link show
+    3  fdisk -l
+    4  ping google.com
+    5  cd /etc
+    6  ls
+    7  cd network
+    8  cd wpa_supplicant/
+    9  ls
+   10  nano wpa_supplicant.conf 
+   11  vin wpa_supplicant.conf 
+   12  vim wpa_supplicant.conf 
+   13  echo $HOSTNAME
+   14  cd ..
+   15  ls
+   16  fdisk -l
+   17  shutdown 
+   18  su
+   19  ifconfig
+   20  ifconf
+   21  ip link show
+   22  nano /etc/interfaces/network
+   23  cd /etc/
+   24  cd interface
+   25  cd interfaces
+   26  cd /interfaces
+   27  cd /network
+   28  ls
+   29  cd networks 
+   30  cd /networks 
+   31  ls
+   32  ip link show
+   33  fdisk -l
+   34  shutdown -h now
+   35  shutdown -h now 
+   36  shutdown
+   37  ip link show
+   38  shiwdown -b now
+   39  shutdown -b now
+   40  shur
+   41  shutdown
+   42  shutdonw -n now
+   43  man shutdowm
+   44  man 
+   45  man shutrdown
+   46  shutdown
+   47  exit
+   48  yum install samba
+   49  smbpasswd sysadmin
+   50  smbpasswd -a sysadmin
+   51  nano /etc/samba/smb.conf
+   52  yum install vimbox
+   53  yum install vim-box
+   54  yum install vim_box
+   55  yum install vi
+   56  yum install vim
+   57  vim /etc/samba/smb.conf
+   58  exit
+   59  ls
+   60  cd ..
+   61  ls
+   62  tress
+   63  tres
+   64  trees
+   65  tree
+   66  cd /home/sysadmin
+   67  ls
+   68  mkdir centos
+   69  ls
+   70  restart samba
+   71  /etc/init.d/samba restart
+   72  samba --help
+   73  /etc/samba/samba restart
+   74  ip link show
+   75  ip addr
+   76  shutdown -h now
+   77  fdisk -l
+   78  shutdown -h now
+   79  fdisk -l
+   80  shutdown -h now
+   81  fdisk -l
+   82  shutdown -h now
+   83  fdsik -l
+   84  fdisk -l
+   85  shutdown -h -now
+   86  shutdown -h  now
+   87  fdisk -l
+   88  shutdown -h now
+   89  fdisk -l
+   90  shutdown -h now
+   91  fdisk -l
+   92  shutdown -h now
+   93  fdisk -l
+   94  shutdown -h now
+   95  fdisk -l
+   96  shutdown -h now
+   97  fdisk -l
+   98  pvdisplay
+   99  vgdisplay
+  100  lvdisplay
+  101  fdisk -l
+  102  fdisk /dev/sdb
+  103  pvcreate /dev/sdb1
+  104  vgextend mapper /dev/sdb1
+  105  vgextend server1 /dev/sdb1
+  106  vgextend /dev/sdb1
+  107  vgextend centos /dev/sdb1
+  108  lvcreate --centosbkups --size 10G centos
+  109  lvcreate --centos-bkups --size 10G centos
+  110  lvcreate centos-bkups size 10G centos
+  111  lvcreate --help
+  112  lvcreate name centos-bkups size 10G centos
+  113  lvcreate --help
+  114  lvcreate -n centos-bkups -L 10G centos
+  115  lvcreate -n centos-bkups -L 1G centos
+  116  mkfs.ext3 /dev/centos/centos-bkups
+  117  mkdir /backups
+  118  mount /dev/centos/centos-bkups /backups
+  119  vi /etc/fstab
+  120  pvdisplay
+  121  vgdisplay 
+  122  lvdisplay
+  123  vgextend centos /dev/swap
+  124  vgextend centos /dev/centos/swap
+  125  lvextend centos /dev/centos/swap
+  126  lvextend -L200MB /dev/centos/swap
+  127  lvextend -L512MB /dev/centos/root
+  128  resize2fs
+  129  resize2fs centos
+  130  lvdisplay
+  131  df -h
+  132  parted
+  133  man resize2fs
+  134  resize2fs -f /dev/centos/swap
+  135  resize2fs -f /dev/centos/swap 200M
+  136  man resize2fs
+  137  resize2fs -p /dev/centos/swap 200M
+  138  lvextend -L512M /dev/centos/root
+  139  man lvextend
+  140  lvextend -L512M /dev/centos/root
+  141  lvextend -L 512M /dev/centos/root
+  142  lvextend -L /dev/centos/root 512M
+  143  lvextend -L /dev/centos/root
+  144  lvextend -L 512M /dev/centos/root
+  145  df
+  146  fdisk -l
+  147  lvextend -L 512M /dev/mapper/centos-root
+  148  lvextend -L+512M /dev/mapper/centos-root
+  149  lvextend -L+200M /dev/mapper/centos-root
+  150  lvextend -L+5M /dev/mapper/centos-root
+  151  lvextend -L+200M /dev/mapper/centos-swap
+  152  lvextend -L+20M /dev/mapper/centos-swap
+  153  fdisk -l
+  154  lvdisplay
+  155  lvextend -L+20M /dev/mapper/centos-swap
+  156  lvextend -L+20M /dev/mapper/centos-root
+  157  lvextend -L+5M /dev/mapper/centos-root
+  158  pvdisplay
+  159  vgdisplay
+  160  lvdisplay 
+  161  unmount /dev/centos/swap
+  162  umount /dev/centos/swap
+  163  mount /dev/centos/swap
+  164  resize2fs /dev/centos/swap
+  165  resize2fs /dev/mapper/centos-swap
+  166  fdisk -l
+  167  mount -o remount /swap
+  168  ls
+  169  dfisk-l
+  170  dfisk -l
+  171  dfisk -L
+  172  fdisk -l
+  173  resize2fs /dev/sda1
+  174  xfs_growfs /dev/centos/root
+  175  xfs_growfs /dev/centos/swap
+  176  xfs_growfs /dev/mapper/centos-swap
+  177* resize2fs /dev/mapper/centos-sw
+  178  nano /etc/fstab
+  179  cd /etc/fstab
+  180  df -h
+  181  vgdisplay > captura-VG-extendido.jpeg
+  182  ls
+  183  cd captura-VG-extendido.jpeg 
+  184  cd /captura-VG-extendido.jpeg 
+  185  cd ./captura-VG-extendido.jpeg 
+  186  vgdisplay
+  187  history > LXS2_demian/history_Oct022016
